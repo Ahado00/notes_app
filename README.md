@@ -1,16 +1,18 @@
-# notes_app
+# Notes App (SQLite Local DB)
+## A simple Flutter app for creating, viewing, and deleting notes using **local SQLite storage** with the `sqflite` package.
 
-A new Flutter project.
+## Task Overview
 
-## Getting Started
+**Class Task Requirements:**
+- Create a basic notes app UI
+- Store notes using either `sqflite` or `drift` (used `sqflite` in this project)
+- Implement Add, View, and Delete functionality
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Add new notes with title and content
+- View a list of saved notes
+- Delete notes by tapping a delete icon
+- Data is stored persistently using SQLite
